@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #059669 0%, #14b8a6 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,9 +17,9 @@ body {
 
 /* Contenedor del login */
 div > h2 + form {
-  background: white;
+  background: #fef3c7;
   padding: 2.5rem;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 420px;
@@ -30,7 +30,7 @@ div > h2 {
   text-align: center;
   margin-bottom: 1.8rem;
   font-size: 1.8rem;
-  color: #2c3e50;
+  color: #065f46;
   font-weight: 700;
 }
 
@@ -43,38 +43,38 @@ div > form input {
   width: 100%;
   padding: 0.9rem 1.2rem;
   font-size: 1rem;
-  border: 2px solid #e0e0e0;
-  border-radius: 10px;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
   transition: border-color 0.3s, box-shadow 0.3s;
   outline: none;
 }
 
 div > form input:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
 }
 
 /* Botón */
 div > form button {
   width: 100%;
   padding: 0.95rem;
-  background: #2563eb;
+  background: #059669;
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
   border: none;
-  border-radius: 10px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 div > form button:hover {
-  background: #1d4ed8;
+  background: #047857;
 }
 
 /* Mensaje de error */
 div > form p {
-  color: #e53e3e;
+  color: #dc2626;
   text-align: center;
   margin-top: 1rem;
   font-size: 0.95rem;
@@ -107,21 +107,21 @@ div > form p {
 }
 
 :root {
-  --primary: #007bff;
-  --success: #28a745;
-  --info: #17a2b8;
-  --purple: #6f42c1;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --gray: #6c757d;
-  --border: #dee2e6;
+  --primary: #10b981;
+  --success: #059669;
+  --info: #14b8a6;
+  --purple: #8b5cf6;
+  --danger: #dc2626;
+  --light: #f9fafb;
+  --dark: #1f2937;
+  --gray: #6b7280;
+  --border: #d1d5db;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background-color: #f5f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecfdf5;
   color: #333;
   line-height: 1.6;
 }
@@ -152,9 +152,9 @@ h3 {
 
 /* Formulario de búsqueda */
 .search-form {
-  background: white;
+  background: #fef3c7;
   padding: 1.8rem;
-  border-radius: 14px;
+  border-radius: 6px;
   box-shadow: var(--shadow);
   margin-bottom: 2.5rem;
 }
@@ -171,7 +171,7 @@ h3 {
   min-width: 280px;
   padding: 0.85rem 1.2rem;
   border: 2px solid var(--border);
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 1rem;
   transition: border-color 0.25s, box-shadow 0.25s;
   outline: none;
@@ -179,13 +179,13 @@ h3 {
 
 .search-bar input:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
 }
 
 .search-bar button {
   padding: 0.85rem 1.4rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
@@ -198,7 +198,7 @@ h3 {
 }
 
 .search-bar button[type="submit"]:hover:not(:disabled) {
-  background: #0069d9;
+  background: #059669;
 }
 
 .search-bar .clear-btn {
@@ -207,7 +207,7 @@ h3 {
 }
 
 .search-bar .clear-btn:hover {
-  background: #5a6268 !important;
+  background: #4b5563 !important;
 }
 
 /* Botones de acción */
@@ -226,14 +226,14 @@ h3 {
   font-size: 1rem !important;
   font-weight: 600;
   border: none;
-  border-radius: 10px;
+  border-radius: 4px;
   cursor: pointer;
   transition: transform 0.2s, opacity 0.2s;
 }
 
-.search-form button[style*="17a2b8"]:hover { background: #138496 !important; }
-.search-form button[style*="28a745"]:hover { background: #218838 !important; }
-.search-form button[style*="6f42c1"]:hover { background: #5e37a6 !important; }
+.search-form button[style*="17a2b8"]:hover { background: #0d9488 !important; }
+.search-form button[style*="28a745"]:hover { background: #047857 !important; }
+.search-form button[style*="6f42c1"]:hover { background: #7c3aed !important; }
 
 .search-form button:hover {
   transform: translateY(-2px);
@@ -244,8 +244,8 @@ h3 {
 .customer-table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
-  border-radius: 12px;
+  background: #fef3c7;
+  border-radius: 6px;
   overflow: hidden;
   box-shadow: var(--shadow);
   margin-top: 1rem;
@@ -270,7 +270,7 @@ h3 {
 }
 
 .customer-table tbody tr:hover {
-  background-color: #f9fafc;
+  background-color: #fde68a;
 }
 
 /* Mensajes de error */
